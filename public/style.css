@@ -1,0 +1,285 @@
+body {
+  margin: 0;
+  height: 100vmax;
+}
+* {
+  font-family: "Montserrat";
+}
+
+.body2 {
+  height: auto;
+  background-color: whitesmoke;
+}
+.header {
+  background-color: black;
+  justify-content: center;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.Khuvsgul {
+  text-align: center;
+  margin-top: 50px;
+  color: #303030;
+  font-size: 73px;
+}
+.TRIP {
+  text-align: center;
+  color: gray;
+  margin-top: -25px;
+  margin-bottom: 100px;
+  font-family: Arial;
+  margin-right: 70px;
+  font-size: 20;
+}
+.imgc {
+  display: flex;
+  justify-content: center;
+  gap: 30;
+  margin-bottom: 15%;
+  flex-wrap: wrap;
+}
+.Tours {
+  color: gray;
+  text-align: start;
+  font-family: arial;
+  font-size: 27;
+}
+.DESTI {
+  text-align: start;
+  font-size: 60;
+  font-family: Arial;
+  margin-bottom: 120;
+}
+.zuraas {
+  width: 0;
+  height: 30px;
+  border: 1px black dashed;
+  margin-left: 34px;
+  margin-top: -5px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15%;
+  gap: 200px;
+}
+.left {
+  margin: 0;
+  padding-left: 50px;
+  text-align: start;
+  display: inline-block;
+  min-width: 500px;
+}
+
+.right {
+  margin-right: 0;
+  text-align: end;
+}
+.TOMzurag {
+  margin-top: 10px;
+  margin-right: 0;
+  height: 1000px;
+}
+
+.four {
+  display: flex;
+  justify-content: center;
+  display: inline-block;
+  height: 490px;
+  width: 350px;
+  margin-left: 20px;
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 1s ease;
+  border-radius: 24px;
+}
+
+.animation:hover {
+  background-size: 120%;
+}
+
+.dest {
+  height: 70px;
+  width: 70px;
+  gap: 10px;
+  border-radius: 50%;
+  background-color: black;
+  box-sizing: border-box;
+  padding: 10px;
+  position: relative;
+}
+.dest:hover .square {
+  display: block;
+  cursor: pointer;
+}
+.square {
+  height: 1000px;
+  width: 818.93px;
+  position: absolute;
+  display: none;
+  border-radius: 30px;
+}
+.too {
+  color: #16a94a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  font-family: Arial;
+  font-size: 25;
+}
+.Price {
+  text-align: center;
+  margin-bottom: 5%;
+}
+.PRICING {
+  color: #ababab;
+  font-family: Arial;
+  margin-right: 60px;
+  margin-bottom: -15px;
+  font-size: 40;
+}
+.OUR {
+  color: #303030;
+  font-family: Arial;
+  font-size: 60;
+}
+
+h4 {
+  margin-left: 80px;
+  margin-top: -50px;
+}
+
+h5 {
+  margin-left: 80px;
+  margin-top: -20px;
+  color: #777777;
+}
+
+li {
+  color: #777777;
+  margin-left: 20px;
+  font-size: larger;
+  margin-bottom: 20px;
+}
+
+.ICON {
+  height: 35px;
+  width: 120px;
+  background-color: #303030;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border: 2px solid #303030;
+  cursor: pointer;
+}
+.UNE {
+  text-align: end;
+  font-size: xx-large;
+  padding-right: 20px;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.foot {
+  margin-top: 100px;
+  background-color: #171717;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 350px;
+}
+
+.jijig {
+  margin-left: 50px;
+  padding-top: 10px;
+  font-family: Arial;
+  margin-bottom: 50px;
+  font-size: 30;
+}
+
+.footup {
+  color: #ffffff;
+  font-size: x-large;
+  font-family: Arial;
+  font-size: 35;
+  margin-top: 60px;
+}
+.footdown {
+  height: 35px;
+  width: 100px;
+  background-color: #18ba51;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5%;
+  color: #ffffff;
+  margin-left: 70px;
+  margin-top: -15px;
+  margin-bottom: 60px;
+  border: 2px solid #18ba51;
+  cursor: pointer;
+}
+.another {
+  background-color: #101010;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pine {
+  color: #ffffff;
+  width: 20%;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.anotherone {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+ul li:hover {
+  font-weight: bold;
+}
+
+.card {
+  border: 2px solid white;
+  height: 500px;
+  width: 350px;
+  background-color: white;
+  border-radius: 24px;
+}
+
+.card:hover {
+  border: 2px solid green;
+}
+.box1 {
+  border: 2px solid #ffffff;
+}
+.box1:hover {
+  border: 2px solid rgb(211, 58, 211);
+}
+
+a {
+  text-decoration: none;
+}
+.fa-brands fa-facebook {
+  height: 40px;
+  color: #ffffff;
+}
